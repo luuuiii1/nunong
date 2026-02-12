@@ -27,7 +27,7 @@ noButton.addEventListener("click", function () {
 });
 
 function handleYesClick() {
-  titleElement.innerHTML = "'di joke lang pala study first ket may bagsak";
+  titleElement.innerHTML = "uhulul joke lang pala study first ket may bagsak pak u";
   buttonsContainer.classList.add("hidden");
   changeImage("yes");
 }
@@ -61,3 +61,4 @@ function changeImage(image) {
 function updateNoButtonText() {
   noButton.innerHTML = generateMessage(noCount);
 }
+
